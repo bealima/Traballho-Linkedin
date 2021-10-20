@@ -17,18 +17,82 @@ header {
 body {
   background-color: #e5e5e5;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+}
 main {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: auto;
   margin-top: 5%;
-  width: 90%;
+  width: 70%;
 }
+.edit-profile{
+    background-image: url(./imagens/imagem-background-edit-profile\ 3.png);
+    margin: 20px;
+    width: 80%;
+    
+} 
 
-/* aside {
+.profile-info{
+    background-color: #ffffff;
+    width: 80%;
+}
+.buttons{
+    margin: 20px;
+}
+.about{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    
+}
+.projets{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+}
+.up-projects, 
+.middle-projects, 
+.bottom-projects{
+    display: flex;
+    flex-direction: row;
+}
+.skills-endoresments{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    width: 80%; 
+}
+.middle-skills{
+    display: flex;
+    flex-direction: row;
+}
+.experience{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+}
+.education{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+}
+aside {
   display: flex;
-} */
-
+  flex-direction: column;
+  width: 30%;
+}
 footer {
   align-items: center;
   background-color: #f7f9fb;
