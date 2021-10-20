@@ -5,8 +5,8 @@ body,
   padding: 0;
 }
 body {
-    background-color: #e5e5e5;
-  }
+  background-color: #e5e5e5;
+}
 header img {
   width: 30px;
 }
@@ -15,14 +15,13 @@ header {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 30px;
 }
-.container{
-    display: flex;
-    flex-direction: row;
-    max-width: 1200px;
-    margin: 0 auto;
-    
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 main {
   display: flex;
@@ -30,125 +29,131 @@ main {
   justify-content: space-between;
   margin-top: 25px;
   width: 70%;
+  padding: 30px;
 }
-main a{
-    text-decoration: none;
-    color: #0275B1;
-    font-weight: bold;
+.edit-profile {
+  background-image: url(./imagens/imagem-background-edit-profile\ 3.png);
+  margin: 20px;
+  width: 84%;
 }
-.edit-profile{
-    background-image: url(./imagens/imagem-background-edit-profile\ 3.png);
-    margin: 20px;
-    width: 80%;
-    
-} 
+main a {
+  text-decoration: none;
+  color: #0275b1;
+  font-weight: bold;
+}
+.edit-profile {
+  background-image: url(./imagens/imagem-background-edit-profile\ 3.png);
+  margin: 20px;
+  width: 80%;
+}
 
-.profile-info{
-    background-color: #ffffff;
-    width: 80%;
+.profile-info {
+  background-color: #ffffff;
+  width: 80%;
 }
-.buttons{
-    margin: 20px;
+.buttons {
+  margin: 20px;
 }
-.about{
-    background-color: #ffffff;
-    margin: 20px;
-    padding: 20px;
-    width: 80%;
-    
+.about {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
 }
-.projets{
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    padding: 20px;
-    width: 80%;
+.projets {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
 }
-.up-projects, 
-.middle-projects, 
-.bottom-projects{
-    display: flex;
-    flex-direction: row;
+.up-projects,
+.middle-projects,
+.bottom-projects {
+  display: flex;
+  flex-direction: row;
 }
-.skills-endoresments{
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    padding: 20px;
-    width: 80%; 
+.skills-endoresments {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
 }
-.middle-skills{
-    display: flex;
-    flex-direction: row;
+.middle-skills {
+  display: flex;
+  flex-direction: row;
 }
-.experience{
-    background-color: #ffffff;
-    margin: 20px;
-    padding: 20px;
-    width: 80%;
+.experience {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
 }
-.education{
-    background-color: #ffffff;
-    margin: 20px;
-    padding: 20px;
-    width: 80%;
+.education {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 30px;
+  width: 80%;
 }
 aside {
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-    width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  width: 30%;
 }
 
-.your-dashboard{
-    background-color: #ffffff;
-    margin: 20px;
-    padding: 20px;
+.your-dashboard {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
 }
-.card-your-dashboard span{
-    font-weight: bold;
-    font-size: 50px;
-    color: #0275B1;
+.card-your-dashboard span {
+  font-weight: bold;
+  font-size: 50px;
+  color: #0275b1;
 }
-.visitors{
-    background-color: #fcfdfd;
-    margin: 20px;
-    padding: 20px;
+.visitors {
+  background-color: #fcfdfd;
+  margin: 20px;
+  padding: 20px;
 }
-.card-visitors{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
+.card-visitors {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
-.text-visitors h5{
-    font-size: 14px;
+.text-visitors h5 {
+  font-size: 14px;
 }
-.card-visitors img{
-    margin: 10px 10px 10px 0;
+.card-visitors img {
+  margin: 10px 10px 10px 0;
 }
-.you-may-like{
-    background-color: #fcfdfd ;
-    margin: 20px;
-    padding: 20px;
+.you-may-like {
+  background-color: #fcfdfd;
+  margin: 20px;
+  padding: 20px;
 }
 footer {
   align-items: center;
   background-color: #f7f9fb;
   display: flex;
   font-size: 12px;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 3%;
+  width: 94%;
 }
-footer a{
-    text-decoration: none;
-    color: black;
+footer a {
+  text-decoration: none;
+  color: black;
 }
 /*footer nav ul {
   display: flex;
   justify-content: space-around;
 }*/
-footer ul{
-    display: flex;
-    flex-wrap: wrap;
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
 }
