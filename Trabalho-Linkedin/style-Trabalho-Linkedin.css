@@ -20,6 +20,8 @@ header {
 .container{
     display: flex;
     flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
     
 }
 main {
@@ -149,5 +151,4 @@ footer a{
 footer ul{
     display: flex;
     flex-wrap: wrap;
-    height: 50px;
 }
