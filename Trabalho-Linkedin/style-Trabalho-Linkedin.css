@@ -41,7 +41,7 @@ main a {
   color: #0275b1;
   font-weight: bold;
 }
-.edit-profile {
+.profile-image {
   background-image: url(./imagens/imagem-background-edit-profile\ 3.png);
   margin: 20px;
   width: 80%;
@@ -67,12 +67,16 @@ main a {
   margin: 20px;
   padding: 20px;
   width: 80%;
+  justify-content: space-between;
 }
 .up-projects,
 .middle-projects,
 .bottom-projects {
   display: flex;
   flex-direction: row;
+}
+.middle-projects img {
+  width: 80%;
 }
 .skills-endoresments {
   background-color: #ffffff;
@@ -136,36 +140,36 @@ aside {
   margin: 20px;
   padding: 20px;
 }
-.you-may-like a{
-    color: #0275b1;
-    text-decoration: none;
+.you-may-like a {
+  color: #0275b1;
+  text-decoration: none;
 }
-.card-you-my-like{
-    display: flex;
-    flex-direction: row;
-    margin: 10px 10px 10px 0;
+.card-you-my-like {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px 10px 0;
 }
 .card-you-my-like a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
-.text-you-may-like{
-    margin-left: 10px;
+.text-you-may-like {
+  margin-left: 10px;
 }
-.text-you-may-like h5{
-    font-size: 14px;
-    font-weight: bold;
+.text-you-may-like h5 {
+  font-size: 14px;
+  font-weight: bold;
 }
-.text-you-may-like small{
-    font-size: 10px;
+.text-you-may-like small {
+  font-size: 10px;
 }
-.video-you-may-like img{
-    position: relative;
+.video-you-may-like img {
+  position: relative;
 }
-.video-you-may-like i{
-    color: #0275b1;
-    font-size: 30px;
-    position: absolute;
+.video-you-may-like i {
+  color: #0275b1;
+  font-size: 30px;
+  position: absolute;
 }
 footer {
   align-items: center;
@@ -184,7 +188,6 @@ footer a {
   display: flex;
   justify-content: space-around;
 }*/
-footer ul {
-  display: flex;
-  flex-wrap: wrap;
+footer nav {
+  display: inline-flex;
 }
