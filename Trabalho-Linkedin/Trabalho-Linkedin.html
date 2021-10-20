@@ -7,19 +7,20 @@
     <title>Profile</title>
     
     <link rel="stylesheet" href="./style-Trabalho-Linkedin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <img src="./imagens/Logo-linkedin.png" alt="logo">
-        <img src="./imagens/icone-feed.svg" alt="icone-feed">
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-rss"></i>
         <span>FEED</span>
-        <img src="./imagens/icone-network.svg" alt="icone-network">
+        <i class="fa fa-users"></i>
         <span>NETWORK</span>
-        <img src="./imagens/icone-jobs.svg" alt="icone-jobs">
+        <i class="fa fa-suitcase"></i>
         <span>JOBS</span>
-        <img src="./imagens/icone-chat.svg" alt="icone-chat">
+        <i class="fa fa-comment-alt"></i>
         <span>CHAT</span>
-        <img src="./imagens/icone-notices.svg" alt="icone-notices">
+        <i class="fa fa-bell"></i>
         <span>NOTICES</span>
         <form action="search">
         <input type="text" name="search" id="search" placeholder="search">
@@ -27,8 +28,8 @@
         <img src="./imagens/foto-perfil.png" alt="foto-perfil">
         <span>YOU</span>
         <span>367 views today</span> <span>+37 ⬀ </span>
-        <img src="./imagens/icone-search.svg" alt="icone-pesquisa">
-        <img src="./imagens/icone-other.svg" alt="icone-other">
+        <i class="fa fa-search"></i>
+        <i class="fa fa-ellipsis-h"></i>
         <span>OTHER</span>
     </header>
     <div class="container">
@@ -36,15 +37,15 @@
             <section class="edit-profile">         
                 <div class="profile-image">
                     <button class="download"><button>
-                    <!-- <img src="./imagens/icone-download.svg" alt="download"> -->
+                        <i class="fa fa-upload"></i>
                     <button class="edit-profile">EDIT PROFILE</button>
-                    <!-- <img src="./imagens/icone-edit.svg" alt="editar"> -->
+                    <i class="fa fa-edit"></i>
                     <button class="menu">menu</button>
-                    <!-- <img src="./imagens/icone-menu-profile.svg" alt=""> -->
+                    <i class="fa fa-ellipsis-v"></i>
                     <div class="profile-info">
                        <img src="./imagens/foto-perfil.png" alt="foto-perfil">
                        <h3>Dmitry Kargaev</h3> 
-                       <img src="./imagens/icone-localização.png" alt="icone-localizacao"><!-- add ícone localização -->
+                       <i class="fa fa-location-arrow"></i>
                        <span>Saint Petersburg, Russian Federation</span>
                        <p>Freelance UX/UI designer, 80+ projects in web design, mobile apps  (iOS & android) and creative projects. Open to offers.</p>
                        <div class="buttons-profile">
@@ -205,24 +206,35 @@
             <section class="you-may-like">
                 <h5>YOU MAY LIKE THESE COURSES</h5>
                 <hr>
-                <!-- como fazemos esses links pros vídeos? imagem?video?link? não sei kk -->
                 <div class="card-you-my-like">
-                    <img src="./imagens/imagem-you-my-like-1.png" alt="foto">
-                    <!-- icone aqui -->
-                    <h5><a href="#">UX Foundations: Prototyping</a></h5>
-                    <span>27,959</span>
+                    <div class="video-you-may-like">
+                        <img src="./imagens/imagem-you-my-like-1.png" alt="foto">
+                        <i class="fa fa-play-circle"></i>
+                    </div>
+                    <div class="text-you-may-like">
+                        <h5><a href="#">UX Foundations: Prototyping</a></h5>
+                        <small>27,959 viwers</small>
+                    </div>                    
                 </div>
                 <div class="card-you-my-like">
-                    <img src="./imagens/imagem-you-my-like-2.png" alt="foto">
-                    <!-- icone aqi -->
-                    <h5><a href="#">Designing with Adobe XD and Pro</a></h5>
-                    <span>9,122</span>
+                    <div class="video-you-may-like">
+                        <img src="./imagens/imagem-you-my-like-2.png" alt="foto">
+                        <i class="fa fa-play-circle"></i>
+                    </div>
+                   <div class="text-you-may-like">
+                        <h5><a href="#">Designing with Adobe XD and Pro</a></h5>
+                        <small>9,122 viwers</small>
+                   </div> 
                 </div>
                 <div class="card-you-my-like">
-                    <img src="./imagens/imagem-you-my-like-3.png" alt="foto">
-                    <!-- icone aqui -->
-                    <h5><a href="#">UX Foundations: Styles and GUIs</a></h5>
-                    <span>13,858</span>
+                    <div class="video-you-may-like">
+                        <img src="./imagens/imagem-you-my-like-3.png" alt="foto">
+                        <i class="fa fa-play-circle"></i>
+                    </div>
+                    <div class="text-you-may-like">
+                        <h5><a href="#">UX Foundations: Styles and GUIs</a></h5>
+                        <small>13,858 viwers</small>
+                    </div>
                 </div>
                 <a href="#">SEE ALL RECOMENDATIONS</a>
             </section>
