@@ -5,18 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
+    
     <link rel="stylesheet" href="./style-Trabalho-Linkedin.css">
 </head>
 <body>
     <header>
         <img src="./imagens/Logo-linkedin.png" alt="logo">
         <img src="./imagens/icone-feed.svg" alt="icone-feed">
+        <span>FEED</span>
         <img src="./imagens/icone-network.svg" alt="icone-network">
+        <span>NETWORK</span>
         <img src="./imagens/icone-jobs.svg" alt="icone-jobs">
+        <span>JOBS</span>
         <img src="./imagens/icone-chat.svg" alt="icone-chat">
+        <span>CHAT</span>
         <img src="./imagens/icone-notices.svg" alt="icone-notices">
+        <span>NOTICES</span>
+        <form action="search">
+        <input type="text" name="search" id="search" placeholder="search">
+        </form> 
+        <img src="./imagens/foto-perfil.png" alt="foto-perfil">
+        <span>YOU</span>
+        <span>367 views today</span> <span>+37 ⬀ </span>
         <img src="./imagens/icone-search.svg" alt="icone-pesquisa">
         <img src="./imagens/icone-other.svg" alt="icone-other">
+        <span>OTHER</span>
     </header>
     <div class="container">
         <main>
@@ -31,7 +44,7 @@
                     <div class="profile-info">
                        <img src="./imagens/foto-perfil.png" alt="foto-perfil">
                        <h3>Dmitry Kargaev</h3> 
-                       <img src="" alt="">  <!-- add ícone localização -->
+                       <img src="./imagens/icone-localização.png" alt="icone-localizacao"><!-- add ícone localização -->
                        <span>Saint Petersburg, Russian Federation</span>
                        <p>Freelance UX/UI designer, 80+ projects in web design, mobile apps  (iOS & android) and creative projects. Open to offers.</p>
                        <div class="buttons-profile">
@@ -69,7 +82,7 @@
                     <h4>Drozd. Brand identity. 2016</h4>
                     <small>Graphic design, 03.04.2016</small>
                 </div>
-                <a href="#">SHOW ALL</a>
+                <a href="#">SHOW ALL(12)</a>
             </section>
             <section class="skills-endoresments">
                 <h3>Skills & Endoresments</h3>
@@ -169,7 +182,26 @@
             <section class="you-may-like">
                 <h5>YOU MAY LIKE THESE COURSES</h5>
                 <!-- como fazemos esses links pros vídeos? imagem?video?link? não sei kk -->
+                <div class="card-you-my-like">
+                    <img src="./imagens/imagem-you-my-like-1.png" alt="foto">
+                    <!-- icone aqui -->
+                    <h5><a href="#">UX Foundations: Prototyping</a></h5>
+                    <span>27,959</span>
+                </div>
+                <div class="card-you-my-like">
+                    <img src="./imagens/imagem-you-my-like-2.png" alt="foto">
+                    <!-- icone aqi -->
+                    <h5><a href="#">Designing with Adobe XD and Pro</a></h5>
+                    <span>9,122</span>
+                </div>
+                <div class="card-you-my-like">
+                    <img src="./imagens/imagem-you-my-like-3.png" alt="foto">
+                    <!-- icone aqui -->
+                    <h5><a href="#">UX Foundations: Styles and GUIs</a></h5>
+                    <span>13,858</span>
+                </div>
             </section>
+            <a href="#">SEE ALL RECOMENDATIONS</a>
         </aside>
     </div>
     <footer>
@@ -181,17 +213,17 @@
             <h5>Navigation</h5>
             <nav>
                 <ul>
-                    <li>About</li>
-                    <li>Careers</li>
-                    <li>Advertising</li>
-                    <li>Small Business</li>
-                    <li>Talent Solutions</li>
-                    <li>Marketing Solutions</li>
-                    <li>Sales Solutions</li>
-                    <li>Safery Center</li>
-                    <li>Community Guidelines</li>
-                    <li>Privacy & Terms</li>
-                    <li>Mobile App</li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a> </li>
+                    <li><a href="#">Advertising</a> </li>
+                    <li><a href="#">Small Business</a> </li>
+                    <li><a href="#">Talent Solutions</a></li>
+                    <li><a href="#">Marketing Solutions</a></li>
+                    <li><a href="#">Sales Solutions</a></li>
+                    <li><a href="#">Safery Center</a></li>
+                    <li><a href="#">Community Guidelines</a></li>
+                    <li><a href="#">Privacy & Terms</a></li>
+                    <li><a href="#">Mobile App</a></li>
                 </ul>
             </nav>
         </div>
@@ -202,7 +234,12 @@
         </div>
         <div>
             <h5>Language</h5>
-            <select name="language" id="language"></select>
+            <select name="language" id="language">
+                <option value="pt-br">Portuguese</option>
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="ja">Japanese</option>
+            </select>
         </div>
     </footer>
 </body>

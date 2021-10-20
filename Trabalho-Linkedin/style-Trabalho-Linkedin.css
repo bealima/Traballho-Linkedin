@@ -1,7 +1,49 @@
-html,body,*{
-    margin: 0;
-    padding: 0;
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
 }
-header img{
-    width: 30px;
+header img {
+  width: 30px;
 }
+header {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+body {
+  background-color: #e5e5e5;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 5%;
+  width: 90%;
+}
+
+/* aside {
+  display: flex;
+} */
+
+footer {
+  align-items: center;
+  background-color: #f7f9fb;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+}
+footer a li {
+  text-decoration: none;
+}
+footer nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .container {
+  display: flex;
+} */
