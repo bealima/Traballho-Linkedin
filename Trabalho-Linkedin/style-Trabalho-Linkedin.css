@@ -24,7 +24,10 @@ header a {
   color: black;
 }
 .icon-header i {
-  font-size: 30px;
+  font-size: 20px;
+}
+header p {
+  font-size: 12px;
 }
 .icon-header {
   display: flex;
@@ -37,7 +40,7 @@ header img {
 
 .search i {
   color: #0275b1;
-  font-size: 30px;
+  font-size: 20px;
 }
 #search {
   width: 200px;
@@ -61,23 +64,29 @@ header img {
 }
 .name-avatar {
   font-weight: bold;
+  font-size: 14px;
 }
 .you-avatar {
   color: #b7b7b7;
+  font-size: 14px;
 }
 .viwers-avatar {
   color: #747474;
+  font-size: 14px;
 }
 .nunber-viewers {
   color: #02b033;
+  font-size: 14px;
 }
 .other {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+}
+.other span{
+  font-size: 12px;
 }
 .other i {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 .container {
@@ -109,6 +118,7 @@ main a {
   height: 40%;
   display: flex;
   justify-content: space-between;
+  border-radius: 5px;
 }
 .upload,
 .menu-button {
@@ -133,6 +143,10 @@ main a {
   padding: 30px;
   width: 90%;
   height: 50%;
+  border-radius: 5px;
+}
+.profile-info p{
+  font-size: 14px;
 }
 .photo-profile {
   width: 30%;
@@ -148,6 +162,7 @@ main a {
 }
 address {
   margin-left: 10px;
+  font-size: 14px;
 }
 .name-address i {
   color: #0275b1;
@@ -171,6 +186,7 @@ address {
   width: 170px;
   height: 32px;
   margin-right: 15px;
+  font-size: 14px;
 }
 .contact-info {
   background-color: #0275b1;
@@ -212,6 +228,10 @@ address {
   margin: 0px 20px 20px 20px;
   padding: 30px;
   width: 90%;
+  border-radius: 5px;
+}
+.about h3 {
+  font-size: 18px;
 }
 .projets {
   background-color: #ffffff;
@@ -222,6 +242,13 @@ address {
   width: 90%;
   justify-content: space-between;
   height: 280px;
+  border-radius: 5px;
+}
+.text-projectsh3 {
+   font-size: 18px;
+}
+.text-projects h4{
+  font-size: 14px;
 }
 .up-projects,
 .middle-projects,
@@ -262,6 +289,7 @@ address {
   margin: 20px;
   padding: 30px;
   width: 90%;
+  border-radius: 5px;
 }
 .middle-skills {
   display: flex;
@@ -306,7 +334,12 @@ address {
   margin: 10px 20px 20px 20px;
   padding: 30px;
   width: 90%;
-  height: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
+.experience h3{
+  margin-top: -20px ;
+  margin-bottom: 20px;
 }
 .top-expereience, 
 .bottom-expereience{
@@ -326,6 +359,7 @@ address {
 }
 .image-experience img{
   width: 60px;
+  margin-right: 20px;
 }
 .paragraph-1, .paragraph-2{
   display: flex;
@@ -350,26 +384,12 @@ address {
   color: #0275b1;
   font-weight: bold;
 }
-/* .card-experience{
-  display: flex;
-  flex-direction: row;
-  height: 50%;
-}
-.card-experience img{
-  width: 70px;
-}
-.experience-tex{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 20px;
-  height: 100%;
-} */
 .education {
   background-color: #ffffff;
   margin: 20px;
   padding: 30px;
   width: 90%;
+  border-radius: 5px;
 }
 .education-block{
   display: flex;
@@ -415,6 +435,9 @@ aside hr{
   font-weight: bold;
   font-size: 50px;
   color: #0275b1;
+}
+.card-your-dashboard p{
+  font-size: 14px;
 }
 .visitors {
   background-color: #ffffff;
@@ -489,6 +512,7 @@ footer {
 }
 .logo-linkedin{
   height: 100px;
+  width: 30px;
 }
 .logo-linkedin p{
   font-weight: bold;
