@@ -8,13 +8,16 @@ aside,
 body {
   background-color: #e5e5e5;
 }
-
+hr{
+  color: #f4f4f4;
+}
 header {
   align-items: center;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   padding: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 header a {
   text-decoration: none;
@@ -87,20 +90,22 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 70%;
+  width: 100%;
   padding: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 main a {
   text-decoration: none;
   color: #0275b1;
   font-weight: bold;
+  font-size: 12px;
 }
 .profile-image {
   background-image: url(./imagens/imagem-background-edit-profile\ 3.png);
   padding: 30px;
   margin: 0px 20px 0px 20px;
-  width: 80%;
+  width: 90%;
   height: 40%;
   display: flex;
   justify-content: space-between;
@@ -126,7 +131,7 @@ main a {
   flex-direction: row;
   margin: 0px 20px 20px 20px;
   padding: 30px;
-  width: 80%;
+  width: 90%;
   height: 50%;
 }
 .photo-profile {
@@ -181,11 +186,8 @@ address {
   border-radius: 5px;
   color: #0275b1;
 }
-/* .buttons {
-    margin: 20px;
-} */
 .buttons-about {
-  margin: 80px 20px 0px 18px;
+  margin: 100px 20px 0px 18px;
 }
 .profile,
 .activity,
@@ -193,16 +195,23 @@ address {
   width: 200px;
   height: 40px;
   background-color: #ffffff;
+  border-radius: 5px;
   border-style: solid;
   border-color: #e7e7e7;
   font-weight: bold;
   margin-right: -5px;
 }
+.buttons-about button:hover{
+  background-color: #0275b1;
+  color: white;
+  width: 205px;
+  height: 50px;
+}
 .about {
   background-color: #ffffff;
   margin: 0px 20px 20px 20px;
   padding: 30px;
-  width: 80%;
+  width: 90%;
 }
 .projets {
   background-color: #ffffff;
@@ -210,17 +219,41 @@ address {
   flex-direction: column;
   margin: 20px;
   padding: 30px;
-  width: 80%;
+  width: 90%;
   justify-content: space-between;
+  height: 280px;
 }
 .up-projects,
 .middle-projects,
 .bottom-projects {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
-.middle-projects img {
-  width: 80%;
+.up-projects span{
+  margin-left: 10px;
+  color: #747474;
+}
+.middle-projects{
+  display: flex;
+  justify-content: space-between;
+}
+.card-projects{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.card-projects h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-projects small{
+  font-size: 10px;
+  color: #747474;
+}
+.image-projects {
+  width: 90%;
 }
 .skills-endoresments {
   background-color: #ffffff;
@@ -228,7 +261,7 @@ address {
   flex-direction: column;
   margin: 20px;
   padding: 30px;
-  width: 80%;
+  width: 90%;
 }
 .middle-skills {
   display: flex;
@@ -238,12 +271,14 @@ address {
 .card-skills {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border-color: #f4f4f4;
   border-style: solid;
   border-radius: 5%;
   border-width: 2px;
   margin: 10px;
   padding: 0px 10px 10px 10px;
+  width: 200px;
 }
 .card-skills img {
   width: 115px;
@@ -266,34 +301,115 @@ address {
 .experience {
   background-color: #ffffff;
   display: flex;
-  margin: 20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10px 20px 20px 20px;
   padding: 30px;
-  width: 80%;
+  width: 90%;
+  height: 250px;
+}
+.top-expereience, 
+.bottom-expereience{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-experience{
+  display: flex;
   flex-direction: column;
 }
-.card-experience .experience-text .experience-date .experience-desc {
-  display: flex;
-  align-items: center;
+.text-experience h4{
+  font-size: 14px;
 }
+.text-experience{
+  font-size: 10px;
+}
+.image-experience img{
+  width: 60px;
+}
+.paragraph-1, .paragraph-2{
+  display: flex;
+  flex-direction: row;
 
+}
+.line-1, .line-2{
+  display: flex;
+  justify-content:start;
+}
+.line-1 .span-1{
+  margin-right: 15px; 
+}
+.line-1 .span-2{
+  color: #747474;
+}
+.line-2 .span-1{
+  margin-right: 15px;
+  color: #747474;
+}
+.line-2 .span-2{
+  color: #0275b1;
+  font-weight: bold;
+}
+/* .card-experience{
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+.card-experience img{
+  width: 70px;
+}
+.experience-tex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  height: 100%;
+} */
 .education {
   background-color: #ffffff;
   margin: 20px;
   padding: 30px;
-  width: 80%;
+  width: 90%;
+}
+.education-block{
+  display: flex;
+  flex-direction: row;
+}
+.education-block img{
+  width: 75px;
+}
+.text-education{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
 }
 aside {
-  border-radius: 4px;
   display: flex;
   flex-direction: column;
   margin-top: 25px;
   width: 30%;
+  font-family: 'Roboto', sans-serif;
 }
-
+aside a{
+  text-decoration: none;
+  color: #0275b1;
+  font-weight: bold;
+}
+aside hr{
+  color: #f4f4f4;
+}
 .your-dashboard {
   background-color: #ffffff;
+  border-radius: 4px;
   margin: 5px;
   padding: 20px;
+}
+.dashboard-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
 }
 .card-your-dashboard span {
   font-weight: bold;
@@ -302,8 +418,15 @@ aside {
 }
 .visitors {
   background-color: #ffffff;
+  border-radius: 4px;
   margin: 5px;
   padding: 20px;
+}
+.visitors-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
 }
 .card-visitors {
   align-items: center;
@@ -318,12 +441,12 @@ aside {
 }
 .you-may-like {
   background-color: #ffffff;
+  border-radius: 4px;
   margin: 5px;
   padding: 20px;
 }
-.you-may-like a {
-  color: #0275b1;
-  text-decoration: none;
+.all-recomedations{
+  font-size: 12px;
 }
 .card-you-my-like {
   display: flex;
@@ -362,16 +485,49 @@ footer {
   justify-content: space-around;
   padding: 3%;
   width: 94%;
+  font-family: 'Roboto', sans-serif;
 }
-footer a {
-  text-decoration: none;
-  color: black;
+.logo-linkedin{
+  height: 100px;
 }
-footer nav {
+.logo-linkedin p{
+  font-weight: bold;
+}
+.logo-linkedin span{
+  color: #0275b1;
+}
+.navigation{
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+.navigation a {
+  text-decoration: none;
   color: #181818;
 }
-
+.navigation-title h5{
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.navigation-list{
+  width: 400px;
+}
+.navigation-list nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-list ul{
+  list-style: none;
+}
+.button-fast{
+  height: 100px;
+}
+.button-fast h5{
+  margin-bottom: 20px;
+  font-size: 12px;
+}
 .button-fast button {
   align-items: center;
   background-color: #0275b1;
@@ -384,13 +540,21 @@ footer nav {
   margin: 5px;
   top: 69px;
   width: 170px;
+  padding: 10px;
 }
 button:hover {
-  background-color: gray;
+  border-style: solid;
+  border: #747474;
 }
-
 button {
   cursor: pointer;
+}
+.language{
+  height: 100px;
+}
+.language h5{
+  margin-bottom: 20px;
+  font-size: 12px;
 }
 .language select {
   background-color: #ffffff;
