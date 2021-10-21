@@ -6,30 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     
+    
     <link rel="stylesheet" href="./style-Trabalho-Linkedin.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <header>
-        <img src="./imagens/Logo-linkedin.png" alt="">
+        <a href="#"><img src="./imagens/Logo-linkedin.png" alt="logo-linkedin"></a>
         <div class="icon-header">
-            <i class="fa fa-rss"></i>
+            <a href="#"><i class="fa fa-rss"></i></a>
             <p>FEED</p>
         </div>
-        <div class="icon-header">
-            <i class="fa fa-users"></i>
+            <div class="icon-header">
+            <a href="#"><i class="fa fa-users"></i></a>
             <p>NETWORK</p>
         </div>
         <div class="icon-header">
-            <i class="fa fa-suitcase"></i>
+            <a href="#"><i class="fa fa-suitcase"></i></a>
             <p>JOBS</p>
         </div>
         <div class="icon-header">
-            <i class="fa fa-comments"></i>
+            <a href="#"><i class="fa fa-comments"></i></a>
             <p>CHATS</p>
         </div>
         <div class="icon-header">
-            <i class="fa fa-bell"></i>
+            <a href="#"><i class="fa fa-bell"></i></a>
             <p>NOTICES</p>
         </div>
         <div class="search">
@@ -38,9 +40,9 @@
                 <input type="text" name="search" id="search" placeholder="search">
             </form>
         </div>
-        <div class="avatar-header"> 
+        <div class="avatar-header">
             <div class="avatar-image">
-                <img src="./imagens/foto-perfil.png" alt="foto-perfil">
+                <a href="#"><img src="./imagens/foto-perfil.png" alt="foto-perfil"></a>
             </div>
             <div class="text-avatar">
                 <div class="up-avatar">
@@ -52,9 +54,9 @@
                     <span class="nunber-viewers">+37 <i class="fa fa-arrow-up"></i> </span>
                 </div>
             </div>
-        </div>
+        </a></div>
         <div class="other">
-            <i class="fa fa-ellipsis-h"></i>
+            <a href="#"><i class="fa fa-ellipsis-h"></i></a>
             <span>OTHER</span>
         </div>
     </header>
@@ -153,28 +155,110 @@
                 <div class="bottom-skills">
                     <a href="#">SHOW ALL</a>
                 </div>     
-            </section>
+            </section> 
+
             <section class="experience">
-                <h3>Experience</h3>
+                <h3>
+                    Experience
+                </h3>
+
                 <div class="card-experience">
-                    <img src="./imagens/imagem-freelance-experience.png" alt="logo"> 
-                     <h4>Freelance UX/UI designer</h4> 
-                     <small>Self Employed</small>
-                     <small>Around the world</small>
-                     <small>Jun 2016 — Present</small>
-                     <small>3 yrs 3 mos</small>
-                     <p>Work with clients and web studios as freelancer.  Work in next areas: eCommerce web projects; creative landing pages; iOs and Android apps; corporate web sites and corporate identity sometimes.</p>
+                    <div>
+                        <img src="./imagens/imagem-freelance-experience.png" alt="">
+                    </div>
+
+                    <div class="experience-text">
+                        <div>
+                            <h4>Freelance UX/UI designer</h4>
+                        </div>
+
+                        <div class="experience-desc">
+                            <span>Self Employed</span>
+                            <small>Around the word</small>
+                        </div>
+
+                        <div class="experience-date">
+                            <span>Jun 2016 -- Present</span>
+                            <small>3 yrs 3 mos</small>
+                        </div>
+
+                        <div class="experience-desc">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore modi
+                                doloremque neque natus Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
                 </div>
                 <hr>
+                <div>
+                    <div class="card-experience">
+                        <div class="card-experience">
+                            <img src="./imagens/imagem-ux-experience.png" alt="">
+                        </div>
+
+                        <div class="experience-text">
+                            <div>
+                                <h4>UX/UI designer</h4>
+                            </div>
+
+                            <div class="experience-desc">
+                                <span>Upwork</span>
+                                <small>International</small>
+                            </div>
+
+                            <div class="experience-date">
+                                <span>Jun 2019 -- Present</span>
+                                <small>3 mos</small>
+                            </div>
+
+                            <div class="experience-desc">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore mod
+                                    Lorem</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- <h3>Experience</h3>
                 <div class="card-experience">
-                    <img src="./imagens/imagem-ux-experience.png" alt="logo"> 
-                     <h4>UX/UI designer</h4> 
-                     <small>Upwork</small>
-                     <small>International</small>
-                     <small>Jun 2019 — Present</small>
-                     <small>3 mos</small>
-                     <p>New experience with Upwork system. Work in next areas: UX/UI design, graphic design, interaction design, UX research.</p>
+                    <div class="card-experience">
+                        <img src="./imagens/imagem-freelance-experience.png" alt="logo">
+                    </div>
+                    <div class="experience-text"> 
+                        <h4>Freelance UX/UI designer</h4>
+                    </div>
+                    <div class="experience-text">
+                        <small>Self Employed</small>
+                        <small>Around the world</small>
+                    </div>
+                    <div class="experience-date">
+                        <small>Jun 2016 — Present</small>
+                        <small>3 yrs 3 mos</small>
+                    </div>
+                    <div class="experience-desc">
+                        <p>Work with clients and web studios as freelancer.  Work in next areas: eCommerce web projects; creative landing pages; iOs and Android apps; corporate web sites and corporate identity sometimes.</p>
+                    </div>
                 </div>
+                <hr> 
+
+                <div class="card-experience">
+                    <div class="card-experience">
+                        <img src="./imagens/imagem-ux-experience.png" alt="logo"> 
+                    </div>
+                    <div class="experience-text">
+                        <h4>UX/UI designer</h4>
+                    </div>
+                    <div class="experience-text">
+                        <small>Upwork</small>
+                        <small>International</small>
+                    </div>
+                    <div class="experiencia-date">
+                        <small>Jun 2019 — Present</small>
+                        <small>3 mos</small>
+                    </div>
+                    <div class="experiencia-desc">
+                        <p>New experience with Upwork system. Work in next areas: UX/UI design, graphic design, interaction design, UX research.</p>
+                    </div>
+                </div> -->
             </section>
             <section class="education">
                 <h3>Education</h3>
@@ -280,7 +364,7 @@
     </div>
     <footer>
         <div class="logo-linkedin">
-            <img src="./imagens/Logo-linkedin.png" alt="logo">
+            <a href=""><img src="./imagens/Logo-linkedin.png" alt="logo"></a>
             <p>LinkedIn</p>
         </div> 
         <div class="navigation">
@@ -305,12 +389,12 @@
                 </ul>
             </nav>
         </div>
-        <div>
+        <div class="button-fast">
             <h5>Fast access</h5>
-            <button>QUESTIONS?</button>
-            <button>SETTINGS</button>
+            <button> QUESTIONS? <i class="fa fa-question-circle"></i> </button>
+            <button>SETTINGS <i class="fa fa-cog"></i></button>
         </div>
-        <div>
+        <div class="language">
             <h5>Language</h5>
             <select name="language" id="language">
                 <option value="pt-br">Portuguese</option>
