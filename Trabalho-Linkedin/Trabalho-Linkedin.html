@@ -11,69 +11,86 @@
 </head>
 <body>
     <header>
-        <i class="fa fa-linkedin"></i>
-        <div>
+        <img src="./imagens/Logo-linkedin.png" alt="">
+        <div class="icon-header">
             <i class="fa fa-rss"></i>
-            <span>FEED</span>
+            <p>FEED</p>
         </div>
-        <div>
+        <div class="icon-header">
             <i class="fa fa-users"></i>
-            <span>NETWORK</span>
+            <p>NETWORK</p>
         </div>
-        <div>
+        <div class="icon-header">
             <i class="fa fa-suitcase"></i>
-            <span>JOBS</span>
+            <p>JOBS</p>
         </div>
-        <div>
-            <i class="fa fa-comment-alt"></i>
-            <span>CHAT</span>
+        <div class="icon-header">
+            <i class="fa fa-comments"></i>
+            <p>CHATS</p>
         </div>
-        <div>
+        <div class="icon-header">
             <i class="fa fa-bell"></i>
-            <span>NOTICES</span>
+            <p>NOTICES</p>
         </div>
-        <div>
+        <div class="search">
             <form action="search">
-                <input type="text" name="search" id="search" placeholder="search">
                 <i class="fa fa-search"></i>
+                <input type="text" name="search" id="search" placeholder="search">
             </form>
         </div>
-        <div> 
-            <img src="./imagens/foto-perfil.png" alt="foto-perfil">
-            <span>YOU</span>
-            <span>367 views today</span> <span>+37 ⬀ </span>
+        <div class="avatar-header"> 
+            <div class="avatar-image">
+                <img src="./imagens/foto-perfil.png" alt="foto-perfil">
+            </div>
+            <div class="text-avatar">
+                <div class="up-avatar">
+                    <span class="name-avatar">D. Kargaev</span>
+                    <span class="you-avatar">YOU</span>
+                </div>
+                <div class="bottom-avatar">
+                    <span class="viwers-avatar">367 views today</span> 
+                    <span class="nunber-viewers">+37 <i class="fa fa-arrow-up"></i> </span>
+                </div>
+            </div>
         </div>
-        
-        <i class="fa fa-ellipsis-h"></i>
-        <span>OTHER</span>
+        <div class="other">
+            <i class="fa fa-ellipsis-h"></i>
+            <span>OTHER</span>
+        </div>
     </header>
     <div class="container">
         <main>
             <section class="edit-profile">         
                 <div class="profile-image">
-                    <button class="download"><button>
-                        <i class="fa fa-upload"></i>
-                    <button class="edit-profile">EDIT PROFILE</button>
-                    <i class="fa fa-edit"></i>
-                    <button class="menu">menu</button>
-                    <i class="fa fa-ellipsis-v"></i>
+                    <div class="upload-button">
+                        <button class="upload"><i class="fa fa-upload"></i><button>
+                    </div>
+                    <div>
+                        <button class="edit-button"><i class="fa fa-edit"></i> EDIT PROFILE</i></button>
+                        <button class="menu-button"><i class="fa fa-ellipsis-v"></i></button>
+                    </div>
                 </div>
                 <div class="profile-info">
-                    <img src="./imagens/foto-perfil.png" alt="foto-perfil">
-                    <h3>Dmitry Kargaev</h3> 
-                    <i class="fa fa-location-arrow"></i>
-                    <span>Saint Petersburg, Russian Federation</span>
-                    <p>Freelance UX/UI designer, 80+ projects in web design, mobile apps  (iOS & android) and creative projects. Open to offers.</p>
-                    <div class="buttons-profile">
-                         <button>CONTACT INFO</button>
-                         <button>CONNECTIONS</button>
+                    <div class="photo-profile">
+                        <img src="./imagens/foto-perfil.png" alt="foto-perfil">
+                    </div>
+                    <div class="right-profile-info">
+                        <div div class="name-address">
+                            <h3>Dmitry Kargaev</h3> 
+                            <i class="fa fa-location-arrow"></i><address>Saint Petersburg, Russian Federation</address>
+                        </div>
+                        <p>Freelance UX/UI designer, 80+ projects in web design, mobile apps  (iOS & android) and creative projects. Open to offers.</p>
+                        <div class="buttons-profile">
+                            <button class="contact-info">CONTACT INFO</button>
+                            <button class="connections">CONNECTIONS</button>
+                       </div>
                     </div>
                 </div>
             </section>
-            <section class="buttons">
-                <button>PROFILE</button>
-                <button>ACTIVITY & INTERESTS</button>
-                <button>ARTICLES</button>
+            <section class="buttons-about">
+                <button class="profile">PROFILE</button>
+                <button class="activity">ACTIVITY & INTERESTS</button>
+                <button class="articles">ARTICLES</button>
             </section>
             <section class="about">
                 <h3>About</h3>
@@ -112,19 +129,25 @@
                 </div>
                 <div class="middle-skills">
                     <div class="card-skills">
-                        <h4>User experience (UX)</h4>
+                        <div class="up-card-skills">
+                            <h4>User experience (UX)</h4>
+                            <span>6</span>
+                        </div>
                         <img src="./imagens/imagem-card-skills-1.png" alt="avatares-de-usuários">
-                        <span>6</span>
                     </div>
                     <div class="card-skills">
-                        <h4>User interface (UI)</h4>
+                        <div class="up-card-skills">
+                            <h4>User interface (UI)</h4>
+                            <span>7</span>
+                        </div>
                         <img src="./imagens/imagem-card-skills-2.png" alt="avatares-de-usuários">
-                        <span>7</span>
                     </div>
                     <div class="card-skills">
-                        <h4>Brand identity</h4>
+                        <div class="up-card-skills">
+                            <h4>Brand identity</h4>
+                            <span>5</span>
+                        </div>
                         <img src="./imagens/imagem-card-skills-3.png" alt="avatares-de-usuários">
-                        <span>5</span>
                     </div>   
                 </div>
                 <div class="bottom-skills">
